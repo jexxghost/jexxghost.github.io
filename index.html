@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jessie L. Mina | BS Criminology</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: url('nebula001.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 25px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00eaff;
+    }
+
+    .hero {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-content {
+      max-width: 800px;
+      text-align: center;
+      padding: 40px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+    }
+
+    .hero-content h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero-content h3 {
+      font-weight: 400;
+      font-size: 22px;
+      margin-bottom: 30px;
+      color: #a0f0ff;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #00eaff;
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #00c9d8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    @media (max-width: 768px) {
+      .hero-content h1 {
+        font-size: 36px;
+      }
+
+      .hero-content p {
+        font-size: 16px;
+      }
+
+      nav a {
+        margin: 0 15px;
+        font-size: 16px;
+      }
+
+      .buttons a {
+        padding: 10px 18px;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Jessie L. Mina</h1>
+      <h3>BS Criminology Graduate</h3>
+      <p>
+        Hello! I’m Jessie, a graduate of Bachelor of Science in Criminology. I have a strong passion for justice, public service, and helping make society a better and safer place. This website is a glimpse into who I am, what I love to do, and how you can reach me.
+      </p>
+
+      <div class="buttons">
+        <a href="about.html">More About Me</a>
+        <a href="blog.html">My Hobbies</a>
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Jessie L. Mina. All rights reserved.
+  </footer>
+
+</body>
+</html>
