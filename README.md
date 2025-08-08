@@ -5,6 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Jessie L. Mina - BS Criminology Graduate, aspiring public servant, and justice advocate.">
     <title>Jessie L. Mina | Criminology Graduate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">Jessie L. Mina</h1>
+        <p class="fade-in delay-1">BS Criminology Graduate | Aspiring Public Servant</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero fade-in delay-2">
+        <h1>Justice. Service. Integrity.</h1>
+        <p>Committed to protecting communities and upholding the rule of law.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <div class="container">
+        <section id="about" class="fade-in delay-3">
+            <h2>About Me</h2>
+            <p>Hello! I’m Jessie L. Mina, a graduate of the Bachelor of Science in Criminology from the University of the Cordilleras. My academic journey has equipped me with knowledge in criminal law, forensic science, and community policing. I’m passionate about justice, crime prevention, and contributing to a safer society.</p>
+            <p>When I’m not studying criminal procedures or forensic evidence, you’ll find me playing basketball — a sport that has taught me teamwork, discipline, and resilience.</p>
+        </section>
+
+        <section id="experience" class="fade-in delay-4">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Intern - Philippine National Police (PNP)</strong> | Assisted in filing case reports, evidence documentation, and preliminary investigations.</li>
+                <li><strong>Volunteer - Community Watch Program</strong> | Helped in organizing crime prevention awareness campaigns in local communities.</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="fade-in delay-5">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill-card">Forensic Analysis</div>
+                <div class="skill-card">Criminal Profiling</div>
+                <div class="skill-card">Incident Report Writing</div>
+                <div class="skill-card">Conflict Resolution</div>
+                <div class="skill-card">Public Speaking</div>
+                <div class="skill-card">Basketball Team Leadership</div>
+            </div>
+        </section>
+
+        <section id="projects" class="fade-in delay-6">
+            <h2>Projects & Research</h2>
+            <ul>
+                <li><strong>Fingerprint Analysis Report</strong> — Conducted a detailed examination of latent prints for a mock investigation.</li>
+                <li><strong>Community Crime Prevention Study</strong> — Researched and presented strategies for reducing youth-related crimes.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="fade-in delay-7">
+            <h2>Contact Me</h2>
+            <p>If you’d like to connect, feel free to reach out via:</p>
+            <div class="contact-links">
+                <a href="mailto:jessie.mina@example.com">Email</a> |
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/jexxghost" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Jessie L. Mina. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jessie L. Mina - BS Criminology Graduate, aspiring public servant, and justice advocate.">
+    <title>Jessie L. Mina | Criminology Graduate</title>
     <style>
         body {
             font-family: Arial, sans-serif;
